@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadRaceConditions", "ThreadRaceConditions\ThreadRaceConditions.csproj", "{1594400C-AA30-4BE5-B31D-40E5713CEE9C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ABDB4C4A-B5F1-4CFB-8EA4-9ED05700B35E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassDataToThread", "PassDataToThread\PassDataToThread.csproj", "{25CAD85D-5AB9-4233-B614-1BA3C644A48B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +20,10 @@ Global
 		{1594400C-AA30-4BE5-B31D-40E5713CEE9C}.Debug|x86.Build.0 = Debug|x86
 		{1594400C-AA30-4BE5-B31D-40E5713CEE9C}.Release|x86.ActiveCfg = Release|x86
 		{1594400C-AA30-4BE5-B31D-40E5713CEE9C}.Release|x86.Build.0 = Release|x86
+		{25CAD85D-5AB9-4233-B614-1BA3C644A48B}.Debug|x86.ActiveCfg = Debug|x86
+		{25CAD85D-5AB9-4233-B614-1BA3C644A48B}.Debug|x86.Build.0 = Debug|x86
+		{25CAD85D-5AB9-4233-B614-1BA3C644A48B}.Release|x86.ActiveCfg = Release|x86
+		{25CAD85D-5AB9-4233-B614-1BA3C644A48B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
